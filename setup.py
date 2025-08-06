@@ -13,7 +13,7 @@ setup(
     python_requires='>=3.9',
     install_requires=[
         "pandas >= 2.0.0",
-        "polars",
+        "polars-lts-cpu",
         "pyarrow >= 14.0.1",
         # "s3fs[boto3] >= 2022.8.2",
         "pyathena == 3.0.6",
